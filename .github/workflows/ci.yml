@@ -1,0 +1,16 @@
+# JanetWorld CI — placeholder for Unity build + test
+# Requires Unity license; use Unity Cloud Build or self-hosted runner for full CI.
+#
+# name: CI
+# on: [push, pull_request]
+# jobs:
+#   test:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4
+#       - name: Unity - run tests
+#         uses: game-ci/unity-test-runner@v4
+#         with:
+#           unityVersion: 2022.3
+#           testMode: playmode
+#           projectPath: .
