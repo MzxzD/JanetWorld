@@ -14,7 +14,8 @@ Mixed Reality app for Meta Quest 3/3S — Passthrough AR with JANET (Hatsune Mik
 1. **Setup** — Install tools: [docs/SETUP.md](docs/SETUP.md)
 2. **Build** — Build for Quest: [docs/BUILD.md](docs/BUILD.md)
 3. **Test** — Run automated tests: [docs/TESTING.md](docs/TESTING.md)
-4. **Store** — Submission checklist: [docs/STORE_SUBMISSION.md](docs/STORE_SUBMISSION.md)
+4. **Models** — Janet (Miku) & User (Kazuma) sourcing: [docs/MODELS_SOURCING.md](docs/MODELS_SOURCING.md)
+5. **Store** — Submission checklist: [docs/STORE_SUBMISSION.md](docs/STORE_SUBMISSION.md)
 
 ## Project Structure
 

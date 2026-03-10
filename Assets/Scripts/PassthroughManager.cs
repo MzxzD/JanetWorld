@@ -1,9 +1,5 @@
 using UnityEngine;
 
-#if UNITY_ANDROID && !UNITY_EDITOR
-using UnityEngine.XR.OpenXR.Features.MetaQuestSupport;
-#endif
-
 namespace JanetWorld
 {
     /// <summary>

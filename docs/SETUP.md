@@ -45,10 +45,15 @@ Tools and environment setup for Meta Quest 3/3S development.
 
 ## Unity Project Setup
 
-1. Create new Unity project (3D URP template)
+This project already includes:
+- Unity ProjectSettings and Packages (Unity 6 / 2022.3+)
+- Meta scoped registry (add Meta XR SDK via Asset Store or Package Manager)
+- Unity Test Framework
+
+1. Open project in Unity Hub: Add → select `JanetWorld` folder
 2. Set build target: File → Build Settings → Android
-3. Install Meta XR All-in-One SDK via Package Manager or Asset Store
-4. Add Passthrough: Meta icon (bottom-right) → Building Blocks → Add Block → Passthrough
+3. Add Passthrough: Meta icon (bottom-right) → Building Blocks → Add Block → Passthrough
+4. (Optional) Add Meta XR All-in-One from Asset Store for full feature set
 5. Import JanetWorld Assets (Scripts, Models) into `Assets/`
 6. Run Project Setup Tool (Meta) for Quest compliance
 

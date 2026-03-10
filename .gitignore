@@ -37,6 +37,7 @@ AssemblyInfo.cs
 
 # IDE
 .idea/
+*.bak
 *.swp
 *.swo
 *~
@@ -44,3 +45,4 @@ AssemblyInfo.cs
 # Build output
 *.apk
 *.aab
+test-results.xml
