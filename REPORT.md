@@ -20,6 +20,17 @@
 
 See [docs/STORE_SUBMISSION.md](docs/STORE_SUBMISSION.md) for checklist.
 
+## Push to Git
+
+```bash
+# Create repo on GitHub (e.g. github.com/MzxzD/JanetWorld), then:
+cd Janet-Projects/JanetWorld
+git remote add origin https://github.com/MzxzD/JanetWorld.git
+git push -u origin main
+git tag v0.1.0-store-ready
+git push origin v0.1.0-store-ready
+```
+
 ## Next Steps
 
 1. Create Unity project (3D URP) and import Assets
